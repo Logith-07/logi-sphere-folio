@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Logith S T — Full Stack Developer | AI Enthusiast</title>
+<meta name="description" content="Futuristic portfolio of Logith S T — Full Stack Developer, AI Enthusiast and CSE student crafting modern immersive web experiences." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0a1a'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='Inter,Arial' font-size='30' font-weight='800' fill='%2300eaff'%3EL%3C/text%3E%3C/svg%3E" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/portfolio.css" />
+</head>
+<body>
+
+<div id="particles-js"></div>
+<div class="bg-blobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+<div id="cursor-glow"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span>L</span>ogith.<i>dev</i></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#articles">Articles</a>
+      <a href="#profiles">Coding</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <canvas id="three-canvas"></canvas>
+  <div class="hero-content">
+    <p class="kicker reveal">// welcome to my universe</p>
+    <h1 class="hero-title reveal">LOGITH <span class="grad">S T</span></h1>
+    <h2 class="hero-sub reveal"><span id="typed"></span><span class="caret">|</span></h2>
+    <p class="hero-desc reveal">Crafting modern digital experiences through code, creativity, and innovation.</p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#resume" class="btn btn-ghost">Download Resume</a>
+      <a href="#contact" class="btn btn-ghost">Contact Me</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div><b>3+</b><span>Featured Projects</span></div>
+      <div><b>10+</b><span>Technologies</span></div>
+      <div><b>∞</b><span>Curiosity</span></div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span></span></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>01.</i> About Me</h3>
+    <div class="about-grid">
+      <div class="glass about-card">
+        <h4>Hello, I'm Logith 👋</h4>
+        <p>I'm a <b>Computer Science Engineering</b> student and aspiring <b>Full Stack Developer</b> passionate about building modern web applications and solving real-world problems through technology.</p>
+        <p>I love blending clean code, thoughtful design and emerging AI to ship experiences that feel premium and human.</p>
+        <div class="chips">
+          <span>Full Stack</span><span>AI Enthusiast</span><span>UI Craft</span><span>Problem Solver</span>
+        </div>
+      </div>
+      <div class="glass about-card">
+        <h4>Education</h4>
+        <p class="edu-line"><b>Bachelor of Engineering</b><br/>Computer Science Engineering<br/><span class="muted">C. Abdul Hakeem College of Engineering and Technology</span></p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item"><div class="t-dot"></div><h5>School</h5><p>Foundations in math, logic and an early curiosity for computers.</p></div>
+      <div class="t-item"><div class="t-dot"></div><h5>College</h5><p>Started CSE — fell in love with the web and software engineering.</p></div>
+      <div class="t-item"><div class="t-dot"></div><h5>Learning Journey</h5><p>Building full-stack apps, exploring AI workflows and shipping projects.</p></div>
+      <div class="t-item"><div class="t-dot"></div><h5>Future Goals</h5><p>Become a world-class full-stack engineer building AI-powered products.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>02.</i> Skills & Stack</h3>
+    <div class="skills-grid">
+      <div class="glass skill-card tilt">
+        <h4>Frontend</h4>
+        <ul class="skill-list">
+          <li><span>HTML</span><i style="--p:95%"></i></li>
+          <li><span>CSS</span><i style="--p:90%"></i></li>
+          <li><span>JavaScript</span><i style="--p:88%"></i></li>
+        </ul>
+      </div>
+      <div class="glass skill-card tilt">
+        <h4>Backend</h4>
+        <ul class="skill-list">
+          <li><span>Node.js</span><i style="--p:80%"></i></li>
+          <li><span>Express.js</span><i style="--p:78%"></i></li>
+        </ul>
+      </div>
+      <div class="glass skill-card tilt">
+        <h4>Database</h4>
+        <ul class="skill-list">
+          <li><span>MongoDB</span><i style="--p:75%"></i></li>
+          <li><span>MySQL</span><i style="--p:78%"></i></li>
+        </ul>
+      </div>
+      <div class="glass skill-card tilt">
+        <h4>Tools</h4>
+        <ul class="skill-list">
+          <li><span>Git</span><i style="--p:85%"></i></li>
+          <li><span>GitHub</span><i style="--p:88%"></i></li>
+          <li><span>VS Code</span><i style="--p:92%"></i></li>
+        </ul>
+      </div>
+      <div class="glass skill-card tilt">
+        <h4>AI Skills</h4>
+        <ul class="skill-list">
+          <li><span>Prompt Engineering</span><i style="--p:90%"></i></li>
+          <li><span>AI Workflow Design</span><i style="--p:82%"></i></li>
+          <li><span>Generative AI</span><i style="--p:80%"></i></li>
+        </ul>
+      </div>
+      <div class="glass skill-card tilt circ-card">
+        <h4>Focus Areas</h4>
+        <div class="circles">
+          <div class="circ" style="--v:92"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"/><circle cx="60" cy="60" r="52" class="prog"/></svg><b>92%</b><span>Web</span></div>
+          <div class="circ" style="--v:85"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"/><circle cx="60" cy="60" r="52" class="prog"/></svg><b>85%</b><span>AI</span></div>
+          <div class="circ" style="--v:78"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"/><circle cx="60" cy="60" r="52" class="prog"/></svg><b>78%</b><span>Backend</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>03.</i> Featured Projects</h3>
+    <div class="projects-grid">
+      <article class="glass project-card tilt">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0a0a2a,#1a0040)">
+          <div class="thumb-emoji">🛍️</div>
+        </div>
+        <h4>VIP Store</h4>
+        <p class="muted">Modern E-commerce Website</p>
+        <ul class="feat">
+          <li>Product Listings</li><li>Shopping Cart</li><li>Responsive Design</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">Live</a>
+          <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+      <article class="glass project-card tilt">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#2a0a1a,#400020)">
+          <div class="thumb-emoji">🌶️</div>
+        </div>
+        <h4>Southern Spices</h4>
+        <p class="muted">Restaurant / Food Website</p>
+        <ul class="feat">
+          <li>Product Showcase</li><li>Modern UI</li><li>Mobile Responsive</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">Live</a>
+          <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+      <article class="glass project-card tilt">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0a1a2a,#003040)">
+          <div class="thumb-emoji">🎬</div>
+        </div>
+        <h4>Cinema Companion</h4>
+        <p class="muted">Movie Discovery Platform</p>
+        <ul class="feat">
+          <li>Search Movies</li><li>Movie Information</li><li>Responsive Interface</li>
+        </ul>
+        <div class="actions">
+          <a class="btn btn-primary sm" href="#" target="_blank" rel="noopener">Live</a>
+          <a class="btn btn-ghost sm" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<section id="articles" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>04.</i> Featured Articles</h3>
+    <div class="article-controls">
+      <input id="articleSearch" type="search" placeholder="Search articles…" />
+      <div class="filters" id="articleFilters">
+        <button class="chip active" data-cat="all">All</button>
+        <button class="chip" data-cat="Web Development">Web Development</button>
+        <button class="chip" data-cat="JavaScript">JavaScript</button>
+        <button class="chip" data-cat="AI">AI</button>
+        <button class="chip" data-cat="Career Growth">Career Growth</button>
+        <button class="chip" data-cat="Programming">Programming</button>
+      </div>
+    </div>
+    <div class="articles-grid" id="articlesGrid"></div>
+  </div>
+</section>
+
+<!-- CODING PROFILES -->
+<section id="profiles" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>05.</i> Coding Profiles</h3>
+    <div class="profiles-grid">
+      <a class="glass profile-card tilt" href="https://github.com/" target="_blank" rel="noopener"><b>GitHub</b><span>Open Source & Repos</span><i>↗</i></a>
+      <a class="glass profile-card tilt" href="https://linkedin.com/" target="_blank" rel="noopener"><b>LinkedIn</b><span>Professional Network</span><i>↗</i></a>
+      <a class="glass profile-card tilt" href="https://leetcode.com/" target="_blank" rel="noopener"><b>LeetCode</b><span>DSA Practice</span><i>↗</i></a>
+      <a class="glass profile-card tilt" href="https://hackerrank.com/" target="_blank" rel="noopener"><b>HackerRank</b><span>Skill Badges</span><i>↗</i></a>
+      <a class="glass profile-card tilt" href="https://codechef.com/" target="_blank" rel="noopener"><b>CodeChef</b><span>Contest Coding</span><i>↗</i></a>
+      <a class="glass profile-card tilt" href="https://geeksforgeeks.org/" target="_blank" rel="noopener"><b>GeeksforGeeks</b><span>CS Concepts</span><i>↗</i></a>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>06.</i> Resume</h3>
+    <div class="resume-wrap">
+      <div class="glass resume-preview">
+        <div class="doc">
+          <h4>LOGITH S T</h4>
+          <p class="muted">Full Stack Developer · AI Enthusiast · CSE Student</p>
+          <hr/>
+          <h5>Education</h5>
+          <p>B.E. Computer Science Engineering<br/><span class="muted">C. Abdul Hakeem College of Engineering and Technology</span></p>
+          <h5>Skills</h5>
+          <p>HTML · CSS · JavaScript · Node.js · Express · MongoDB · MySQL · Git · AI Workflows</p>
+          <h5>Projects</h5>
+          <p>VIP Store · Southern Spices · Cinema Companion</p>
+          <h5>Certifications</h5>
+          <p>Web Development · JavaScript · AI Fundamentals</p>
+        </div>
+      </div>
+      <div class="resume-actions">
+        <a href="#" class="btn btn-primary" id="downloadResume">Download Resume</a>
+        <a href="#contact" class="btn btn-ghost">Contact for full CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <h3 class="section-title"><i>07.</i> Get In Touch</h3>
+    <div class="contact-grid">
+      <form class="glass contact-form" id="contactForm" novalidate>
+        <div class="field"><input required name="name" type="text" placeholder=" " /><label>Name</label></div>
+        <div class="field"><input required name="email" type="email" placeholder=" " /><label>Email</label></div>
+        <div class="field"><input required name="subject" type="text" placeholder=" " /><label>Subject</label></div>
+        <div class="field"><textarea required name="message" rows="5" placeholder=" "></textarea><label>Message</label></div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+      <div class="contact-side">
+        <a class="glass contact-link" href="mailto:logith@example.com"><b>Gmail</b><span>logith@example.com</span></a>
+        <a class="glass contact-link" href="https://wa.me/" target="_blank" rel="noopener"><b>WhatsApp</b><span>Chat with me</span></a>
+        <a class="glass contact-link" href="https://linkedin.com/" target="_blank" rel="noopener"><b>LinkedIn</b><span>Let's connect</span></a>
+        <div class="social">
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+          <a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">yt</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter">x</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container foot">
+    <span>© <span id="year"></span> Logith S T — Crafted with code & curiosity.</span>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- Libraries -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="/portfolio.js" defer></script>
+
+</body>
+</html>
