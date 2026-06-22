@@ -77,14 +77,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "LOGITH" },
+      { name: "description", content: "Logith's Digital Realm is a modern, animated portfolio website showcasing a Full Stack Developer's skills and projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "LOGITH" },
+      { property: "og:description", content: "Logith's Digital Realm is a modern, animated portfolio website showcasing a Full Stack Developer's skills and projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LOGITH" },
+      { name: "twitter:description", content: "Logith's Digital Realm is a modern, animated portfolio website showcasing a Full Stack Developer's skills and projects." },
     ],
     links: [
       {
